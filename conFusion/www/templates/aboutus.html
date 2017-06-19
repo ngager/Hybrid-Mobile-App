@@ -22,8 +22,8 @@
             <div class="item item-divider">
                 Corporate Leadership
             </div>
-            <div class="list" ng-repeat="leader in leaders">
-                <div class="item item-avatar item-text-wrap">
+            <div class="list">
+                <div class="item item-avatar item-text-wrap" ng-repeat="leader in leaders">
                     <img ng-src="{{baseURL+leader.image}}" alt="{{leader.name}}">
                     <h2>{{leader.name}}</h2>
                     <h3>{{leader.designation}}</h3>
